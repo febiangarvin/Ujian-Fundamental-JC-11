@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        tr,td,table{ /*buat styling untuk tabel*/
+            border: 1px solid lightcoral;
+            border-collapse: collapse;
+            padding: 10px
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 id="headpembukaan"> Madding </h1>
+
+                                        <!--table login admin-->
+
+            Username <input type="text" placeholder="Masukan username anda" id="username">
+            <br><br>
+            Password <input type="password" placeholder="Masukan password anda" id="password">
+            <br><br>
+            <input type="button" value="Login" onclick="btnlogin()">
+            <br><br>
+
+                                        <!--table body kegiatan-->
+
+        <table>
+            <thead>
+                <tr>
+                    <td>NO</td>
+                    <td>Kegiatan</td>
+                    <td>HARI</td>
+                    <td>Poster</td>
+                    <td>ACT</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+            <br><br>
+            <!-- <tfoot> -->
+                <!-- <tr>
+                    <td></td>
+                    <td><input type="text" class="addtodo"/></td>
+                    <td>
+                        <select class="addtodo">
+                            <option> Senin</option>
+                            <option> Selasa</option>
+                            <option> Rabu</option>
+                            <option> Kamis</option>
+                            <option> Jumat</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="addtodo"></td>
+                    <td><button onclick="onAddTodoClick()">add</button></td>
+                </tr> -->
+            <!-- </tfoot> -->
+            <tfoot>
+                <h2 id="isiregislogin"></h2>
+                <h2 id="isiketeranganregislogin"></h2>
+                <p id="btnlogout"></p>
+            </tfoot>
+</body>
+
+<script src="ujianno2.js"></script>
+
+</html>
